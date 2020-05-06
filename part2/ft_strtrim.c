@@ -1,6 +1,6 @@
 #include "./../libft.h"
 
-int	ft_chr(const char *str, int ch)
+static int	ft_chr(const char *str, int ch)
 {
 	int i;
 

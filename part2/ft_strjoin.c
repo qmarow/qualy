@@ -1,6 +1,6 @@
 #include "./../libft.h"
 
-int	ft_strl(const char *s)
+static int	ft_strl(const char *s)
 {
 	int i;
 

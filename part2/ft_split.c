@@ -1,6 +1,6 @@
 #include "./../libft.h"
 
-int	ft_strl_l(const char *s, int *i, char c)
+static int	ft_strl_l(const char *s, int *i, char c)
 {
 	int a;
 
@@ -10,7 +10,7 @@ int	ft_strl_l(const char *s, int *i, char c)
 	return a;
 }
 
-int	ft_strl(const char *s,char c)
+static int	ft_strl(const char *s,char c)
 {
 	int i;
 	int a;
@@ -23,7 +23,7 @@ int	ft_strl(const char *s,char c)
 	return ++a;
 }
 
-char	**ft_record(const char *s, char c, char **str)
+static char	**ft_record(const char *s, char c, char **str)
 {
 	int i;
 	int a;

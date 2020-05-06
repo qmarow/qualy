@@ -1,4 +1,4 @@
-int	perevod(char *str, int i)
+static int	perevod(char *str, int i)
 {
 	int a;
 
